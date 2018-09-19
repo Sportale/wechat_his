@@ -1,12 +1,12 @@
-<!--pages/me/me.wxml-->
+<!--pages/weather/weather.wxml-->
 <view>
   <text>查询天气</text>
   <view>
-    <input bindinput='changeNum' type='text' placeholder='城市/city'></input>
-    <button bindtap='TianQi'>{{didian}}</button>
+    <input bindinput='cityNum' type='text' placeholder='城市/city'></input>
+    <button bindtap='Weather'>{{chengzhen}}</button>
   </view>
-  <view class='info_list'>
-    <view wx:for="{{info_list}}" wx:key="id">
+  <view>
+    <view wx:for="{{weatinfo_list}}" wx:key="id">
     {{item.date}}-{{item.type}}-{{item.high}}-{{item.low}}-{{item.fengxiang}}
     </view>
   </view>

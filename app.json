@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/branch/branch",
-    "pages/weather/weather"
+    "pages/weather/weather",
+    "pages/express/express"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,32 +1,33 @@
-// pages/weather/weather.js
+// pages/express/express.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    chengzhen: '查询天气',
-    city: null,
-    weatinfo_list: null
+    chaxun: "查询快递",
+    num: null,
+    expinfo_list: null
   },
-  cityNum: function(e) {
+  changeNum: function(e) {
     this.setData({
-      city: e.detail.value
+      num: e.detail.value
     });
   },
-  Weather: function() {
-    var that = this;
+  express: function() {
+    var that=this;
     wx.request({
-      url: 'https://www.apiopen.top/weatherApi',
+      url: 'http://www.kuaidi100.com/query',
       data: {
-        city: that.data.city
+        type:"yuantong",
+        postid: that.data.num
       },
       success: function(res) {
         console.log(res)
-        var data = res.data.data.forecast;
-        that.setData({
-          weatinfo_list: data
-        });
+        // var data = res.data.data.forecast;
+        // that.setData({
+        //   expinfo_list: data
+        // });
       }
     })
   },

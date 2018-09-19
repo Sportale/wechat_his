@@ -1,4 +1,4 @@
-/* pages/weather/weather.wxss */
+/* pages/express/express.wxss */
 input{
   height: 100rpx;
   margin: 10rpx;

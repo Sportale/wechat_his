@@ -4,6 +4,6 @@
     <navigator url="/pages/weather/weather?title=weather">查询天气</navigator>
   </view>
   <view>
-    <navigator url="">查询</navigator>
+    <navigator url="/pages/express/express?title=express">查询快递</navigator>
   </view>
 </view>
