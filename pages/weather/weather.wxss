@@ -1,0 +1,11 @@
+/* pages/me/me.wxss */
+input{
+  height: 100rpx;
+  margin: 10rpx;
+  border: solid 1rpx #000;
+  border-radius:5rpx; 
+  padding-left: 20rpx;
+}
+button{
+  height: 100rpx;
+}

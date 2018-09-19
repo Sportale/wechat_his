@@ -1,0 +1,9 @@
+<!--pages/branch/branch.wxml-->
+<view>
+  <view>
+    <navigator url="/pages/weather/weather?title=weather">查询天气</navigator>
+  </view>
+  <view>
+    <navigator url="">查询</navigator>
+  </view>
+</view>

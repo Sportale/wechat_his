@@ -1,8 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/me/me"
+    "pages/branch/branch",
+    "pages/weather/weather"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,12 +21,8 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
-      },
-      {
-        "pagePath": "pages/me/me",
-        "text": "我的"
+        "pagePath": "pages/branch/branch",
+        "text": "查询功能"
       }
     ],
     "color": "",
