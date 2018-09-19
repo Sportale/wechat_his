@@ -18,21 +18,15 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "text": "首页"
       },
       {
         "pagePath": "pages/logs/logs",
-        "text": "日志",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "text": "日志"
       },
       {
         "pagePath": "pages/me/me",
-        "text": "我的",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "text": "我的"
       }
     ],
     "color": "",
