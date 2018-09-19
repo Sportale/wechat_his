@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/me/me"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -21,6 +22,10 @@
       {
         "pagePath": "pages/logs/logs",
         "text": "日志"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的"
       }
     ],
     "position": "top"
