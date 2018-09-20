@@ -1,4 +1,7 @@
 /* pages/weather/weather.wxss */
+view{
+  text-align:center;
+}
 input{
   height: 100rpx;
   margin: 10rpx;

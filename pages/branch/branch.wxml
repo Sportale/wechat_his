@@ -1,9 +1,11 @@
 <!--pages/branch/branch.wxml-->
 <view>
-  <view>
-    <navigator url="/pages/weather/weather?title=weather">查询天气</navigator>
-  </view>
-  <view>
-    <navigator url="/pages/express/express?title=express">查询快递</navigator>
+  <view class="xxx">
+    <view>
+      <navigator url="/pages/weather/weather?title=weather">查询天气</navigator>
+    </view>
+    <view>
+      <navigator url="/pages/express/express?title=express">查询快递</navigator>
+    </view>
   </view>
 </view>

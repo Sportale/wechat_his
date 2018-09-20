@@ -1,1 +1,19 @@
 /* pages/branch/branch.wxss */
+
+.xxx {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.xxx navigator {
+  width: 200rpx;
+  height: 200rpx;
+  text-align: center;
+  line-height: 200rpx;
+  background-color: #f90;
+  border: solid 1rpx #ccabbb;
+  border-radius: 20%;
+  margin: 10rpx;
+}

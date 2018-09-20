@@ -7,7 +7,7 @@ Page({
   data: {
     chengzhen: '查询天气',
     city: null,
-    weatinfo_list: null
+    weatinfo_list: null,
   },
   cityNum: function(e) {
     this.setData({
@@ -16,16 +16,16 @@ Page({
   },
   Weather: function() {
     var that = this;
+    var r = that.data.city;
     wx.request({
       url: 'https://www.apiopen.top/weatherApi',
       data: {
         city: that.data.city
       },
       success: function(res) {
-        console.log(res)
         var data = res.data.data.forecast;
         that.setData({
-          weatinfo_list: data
+          weatinfo_list: data,
         });
       }
     })
