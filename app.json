@@ -3,15 +3,15 @@
     "pages/index/index",
     "pages/branch/branch",
     "pages/weather/weather",
-    "pages/express/express"
+    "pages/express/express",
+    "pages/map/map"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black",
-    "navigationStyle": "default",
-    "backgroundColor": "#fff",
+    "navigationBarTextStyle": "#fff",
+    "backgroundColor": "#000",
     "enablePullDownRefresh": true,
     "onReachBottomDistance": "50px"
   },
@@ -19,18 +19,28 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "images/wechat.png",
+        "selectedIconPath": "images/wechat_g.png"
       },
       {
         "pagePath": "pages/branch/branch",
-        "text": "查询功能"
+        "text": "查询功能",
+        "iconPath": "images/qq.png",
+        "selectedIconPath": "images/qq_b.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "MAP",
+        "iconPath": "images/qq.png",
+        "selectedIconPath": "images/qq_b.png"
       }
     ],
-    "color": "",
+    "color": "#000",
     "selectedColor": "",
     "backgroundColor": "",
     "borderStyle": "",
-    "position": "top"
+    "position": "button"
   },
   "networkTimeout": {
     "request": 10000,

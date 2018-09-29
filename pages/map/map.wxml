@@ -1,0 +1,3 @@
+<!--pages/map/map.wxml-->
+<map bindtap="toMap" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}">
+</map>
