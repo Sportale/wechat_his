@@ -14,21 +14,25 @@ Page({
       city: e.detail.value
     });
   },
-  Weather: function() {
+  Weathers: function() {
     var that = this;
     var r = that.data.city;
-    wx.request({
-      url: 'https://www.apiopen.top/weatherApi',
-      data: {
-        city: that.data.city
-      },
-      success: function(res) {
-        var data = res.data.data.forecast;
-        that.setData({
-          weatinfo_list: data,
-        });
-      }
-    })
+    console.log(r);
+    if ((/^[\u4e00-\u9fa5]{2,4}$/.test(that.data.city))) {
+      wx.request({
+        url: 'https://www.apiopen.top/weatherApi?city=',
+        data: {
+          city: that.data.city
+        },
+        success: function(res) {
+          var data = res.data.data.forecast;
+          console.log(data);
+          that.setData({
+            weatinfo_list: data,
+          });
+        }
+      })
+    }
   },
   /**
    * 生命周期函数--监听页面加载

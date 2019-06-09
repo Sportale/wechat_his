@@ -1,0 +1,54 @@
+/* pages/history/history.wxss */
+
+.htm {
+  height: 100%;
+}
+
+.head {
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.body>button {
+  width: 240rpx;
+  padding: 0rpx;
+  margin: 10rpx;
+  display: inline-block;
+}
+
+.realy>.div>text {
+}
+
+.div {
+  padding: 10rpx;
+}
+
+#text1 {
+  padding-left: 10rpx;
+  background-color: goldenrod;
+}
+
+#text2 {
+  height: 120rpx;
+  padding-left: 10rpx;
+  background-color: antiquewhite;
+}
+
+#box1 {
+  width: 120rpx;
+  height: 120rpx;
+  float: left;
+  display: inline-block;
+}
+
+#box2 {
+  width: 82%;
+  float: left;
+  display: inline-block;
+}

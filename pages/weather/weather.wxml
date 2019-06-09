@@ -1,14 +1,14 @@
 <!--pages/weather/weather.wxml-->
 <view>
   <view>
-    <text>查询天气</text>
+    <text>查询国内天气</text>
   </view>
   <view>
     <input bindinput='cityNum' type='text' placeholder='城市/city'></input>
-    <button bindtap='Weather'>{{chengzhen}}</button>
+    <button bindtap='Weathers'>{{chengzhen}}</button>
   </view>
   <view>
-    <view wx:for="{{weatinfo_list}}" wx:key="id">
+    <view wx:for="{{weatinfo_list}}" wx:key="id" class='oob'>
       {{item.date}}-{{item.type}}-{{item.high}}-{{item.low}}-{{item.fengxiang}}
     </view>
   </view>

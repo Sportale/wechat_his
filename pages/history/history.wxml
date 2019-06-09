@@ -1,0 +1,29 @@
+<!--pages/history/history.wxml-->
+<view class="htm">
+  <!-- <text>pages/history/history.wxml</text> -->
+  <view class='head'>
+    <view>历史上的今天</view>
+    <!-- <view>目前不支持自定义时间</view> -->
+  </view>
+  <view class='body'>
+    <!-- <input bindinput='month' type='text' placeholder='月'></input>
+    <input bindinput='day' type='text' placeholder='日'></input>-->
+    <!-- <button bindtap='time'>{{day}}</button> -->
+    <view style='padding-top:20rpx'>
+      <text>{{time}}</text>
+      <view>历史上的今天还发生过</view>
+    </view>
+    <button bindtap='rese'>{{reser}}</button>
+  </view>
+
+  <view class='realy'>
+    <view wx:for="{{mos_list}}" wx:key="id" class='div'>
+      <view id='text1'>时间： {{item.date}}</view>
+      <view id='text2'>
+        <view id='box1'>事件：</view>
+        <view id='box2'>{{item.title}}</view>
+      </view>
+    </view>
+    <!-- <view>{{error}}</view> -->
+  </view>
+</view>

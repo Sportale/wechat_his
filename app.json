@@ -1,46 +1,49 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/history/history",
     "pages/branch/branch",
+    "pages/index/index",
     "pages/weather/weather",
     "pages/express/express",
-    "pages/map/map"
+    "pages/papy/papy",
+    "pages/suan/suan",
+    "pages/whatff/whatff"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "#fff",
+    "navigationBarTitleText": "历史大事件",
+    "navigationBarTextStyle": "white",
     "backgroundColor": "#000",
     "enablePullDownRefresh": true,
-    "onReachBottomDistance": "50px"
+    "onReachBottomDistance": 50
   },
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/history/history",
         "text": "首页",
-        "iconPath": "images/wechat.png",
-        "selectedIconPath": "images/wechat_g.png"
+        "iconPath": "images/yue.png",
+        "selectedIconPath": "images/yue_h.png"
       },
       {
-        "pagePath": "pages/branch/branch",
-        "text": "查询功能",
-        "iconPath": "images/qq.png",
-        "selectedIconPath": "images/qq_b.png"
+        "pagePath": "pages/suan/suan",
+        "text": "日期搜索",
+        "iconPath": "images/suan_.png",
+        "selectedIconPath": "images/suan.png"
       },
       {
-        "pagePath": "pages/map/map",
-        "text": "MAP",
-        "iconPath": "images/qq.png",
-        "selectedIconPath": "images/qq_b.png"
+        "pagePath": "pages/papy/papy",
+        "text": "关于",
+        "iconPath": "images/fore.png",
+        "selectedIconPath": "images/fore_rgb.png"
       }
     ],
     "color": "#000",
-    "selectedColor": "",
+    "selectedColor": "black",
     "backgroundColor": "",
-    "borderStyle": "",
-    "position": "button"
+    "borderStyle": "white",
+    "position": "bottom"
   },
   "networkTimeout": {
     "request": 10000,
@@ -48,5 +51,6 @@
   },
   "debug": false,
   "functionalPages": false,
-  "resizable": false
+  "resizable": false,
+  "sitemapLocation": "sitemap.json"
 }
