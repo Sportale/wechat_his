@@ -1,13 +1,16 @@
 /* pages/papy/papy.wxss */
+
 .userinfo {
 }
-.header{
+
+.header {
   width: 100%;
-  height: 350rpx;
+  height: 300rpx;
   padding-top: 50rpx;
-  background-color: greenyellow;
+  background-color: #45e;
   text-align: center;
 }
+
 .userinfo-avatar {
   width: 150rpx;
   height: 150rpx;
@@ -16,40 +19,44 @@
 }
 
 .userinfo-nickname {
-  color: #aaa;
+  color: #d45444;
+  font-size: 30rpx;
+  margin: 0 0 20rpx 0;
+  display: block;
 }
 
 .usermotto {
   margin-top: 50rpx;
 }
+
 .tab {
   float: left;
   width: 49.9%;
   text-align: center;
   padding: 10rpx 0;
 }
- 
+
 .topTabSwiper {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   zoom: 1;
 }
- 
+
 .topTabSwiper:after {
   content: "";
   clear: both;
   display: block;
 }
- 
+
 .tabBorer {
   border-bottom: 1px solid #f00;
   color: #f00;
 }
- 
+
 .swiper {
   width: 100%;
 }
- 
+
 .swiper_con {
   text-align: center;
   width: 100%;

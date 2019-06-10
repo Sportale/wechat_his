@@ -1,25 +1,57 @@
-/* pages/history/history.wxss */
+/* pages/hist_aff/hist_aff.wxss */
 
 .htm {
   height: 100%;
 }
 
 .head {
-  height: 300rpx;
-  text-align: center;
-  line-height: 150rpx;
+  height: 160rpx;
   background-color: #45e;
-  font-size: 60rpx;
   padding-bottom: 30rpx;
+  padding-top: 30rpx;
 }
 
-.cte {
-  color: white;
+.head-nav {
+  margin: 0 auto;
+  width: 440rpx;
+  height: 84rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  margin-top: 30rpx;
+}
+
+.sousuo {
+  height: 100%;
+  float: left;
+  display: inline-block;
+  margin-left: 10rpx;
+}
+
+.sousuo text {
+  font-size: 60rpx;
+  float: left;
+}
+
+.inputGoods {
+  width: 70rpx;
+  height:60rpx;
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  float: left;
+  padding: 14rpx 6rpx;
+}
+
+.cliBtn {
+  height: 84rpx;
+  width: 150rpx;
+  line-height: 80rpx;
+  display: inline-block;
+  float: right;
 }
 
 .body {
   display: flex;
-  justify-content: center;
 }
 
 .rese_f {
@@ -46,7 +78,7 @@
 }
 
 .his {
-  height: 800rpx;
+  height: 960rpx;
 }
 
 .his-bd {

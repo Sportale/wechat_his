@@ -6,7 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    motto: '关于历史上的今天',
+    motto: '关于历史大事件',
     userInfo: {},
     hasUserInfo: false,
     currentData: 0,

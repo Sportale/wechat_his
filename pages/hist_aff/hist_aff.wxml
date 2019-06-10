@@ -1,8 +1,15 @@
-<!--pages/history/history.wxml-->
+<!--pages/hist_aff/hist_aff.wxss-->
 <view class="htm">
   <view class='head'>
-    <view class='cte'>历史大事件</view>
-    <navigator url="/pages/hist_aff/hist_aff?title=hist_aff" hover-class="navigator-hover">{{add}}</navigator>
+    <view class='head-nav'>
+      <view class='sousuo'>
+        <input type="text" name='userm' class="inputGoods" value='{{mou}}' bindinput="goodmou" />
+        <text>月</text>
+        <input type="text" name='userd' class="inputGoods" value='{{day}}' bindinput="goodday" />
+        <text>日</text>
+      </view>
+      <button class="cliBtn" size="default" bindtap="clickButton" form-type="submit">搜索</button>
+    </view>
   </view>
   <view class='body'>
     <view class='rese_f'>
@@ -16,7 +23,7 @@
   <view>
     <scroll-view scroll-y="true" class='his'>
       <view wx:for="{{mos_list}}" wx:key="id" class='his-bd'>
-        <view id='text-time'>时间： {{item.date}}</view>
+        <view id='text-time'>{{item.date}}</view>
         <view id='text-aff'>
           <view id='aff-l'>事件：</view>
           <view id='aff-r'>{{item.title}}</view>
@@ -24,4 +31,5 @@
       </view>
     </scroll-view>
   </view>
+
 </view>

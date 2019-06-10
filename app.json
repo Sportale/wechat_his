@@ -4,17 +4,16 @@
     "pages/branch/branch",
     "pages/index/index",
     "pages/weather/weather",
-    "pages/express/express",
     "pages/papy/papy",
-    "pages/suan/suan",
-    "pages/whatff/whatff"
+    "pages/whatff/whatff",
+    "pages/hist_aff/hist_aff"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#000",
+    "navigationBarBackgroundColor": "#4455ee",
     "navigationBarTitleText": "历史大事件",
     "navigationBarTextStyle": "white",
-    "backgroundColor": "#000",
+    "backgroundColor": "#4455ee",
     "enablePullDownRefresh": true,
     "onReachBottomDistance": 50
   },
@@ -25,12 +24,6 @@
         "text": "首页",
         "iconPath": "images/yue.png",
         "selectedIconPath": "images/yue_h.png"
-      },
-      {
-        "pagePath": "pages/suan/suan",
-        "text": "日期搜索",
-        "iconPath": "images/suan_.png",
-        "selectedIconPath": "images/suan.png"
       },
       {
         "pagePath": "pages/papy/papy",

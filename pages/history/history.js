@@ -19,11 +19,6 @@ var m = date.getMinutes();
 //秒
 var s = date.getSeconds();
 
-// var historyer = document.querySelector(".realy>.div")
-// for (var i = historyer.length - 1; i > -1; i--) {
-//   document.querySelector(".realy").appendChild(historyer[i]);
-// };
-
 //  pages/history/history.js
 Page({
 
@@ -32,25 +27,30 @@ Page({
    */
   data: {
     time: "",
-    day: "查看今天",
+    add: "查看更多>",
     mos_list: "",
     reser: "倒叙查看",
+    paixu: "../../images/daoxu.png",
     revers: false
   },
   rese: function() {
     var that = this;
     var data = that.data.mos_list,
+      paixu = that.data.paixu,
       revers = that.data.revers;
     if (revers) {
       var revers = false,
-        reser = "倒叙查看";
+        reser = "倒叙查看",
+        paixu = "../../images/daoxu.png";
     } else {
       var revers = true,
-        reser = "正叙查看";
+        reser = "正叙查看",
+        paixu = "../../images/zhengxu.png";
     };
     that.setData({
       revers: revers,
       reser: reser,
+      paixu: paixu,
       mos_list: data.reverse()
     })
   },
@@ -76,9 +76,9 @@ Page({
         })
       }
     })
-    // that.setData({
-    //   time: time
-    // })
+    that.setData({
+      time: time
+    })
   },
 
   /**
