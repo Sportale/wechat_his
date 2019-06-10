@@ -1,66 +1,21 @@
 // pages/whatff/whatff.js
 
 Page({
-  sortRule: true,
   data: {
-    arr: [{
-        id: '1',
-        name: '一',
-        age: '12'
-      },
-      {
-        id: '5',
-        name: '五',
-        age: '24'
-      },
-      {
-        id: '3',
-        name: '三',
-        age: '28'
-      },
-      {
-        id: '4',
-        name: '四',
-        age: '18'
-      },
-      {
-        id: '2',
-        name: '二',
-        age: '36'
-      },
-    ],
+    showView: true
   },
-  mySort: function(e) {
-    //property 根据什么排序
-    var property = e.currentTarget.dataset.property;
-    var self = this;
-    var arr = self.data.arr; 
-    var sortRule = self.sortRule; // 正序倒序
-    if (sortRule) {
-      self.sortRule = false;
-    } else {
-      self.sortRule = true;
-    };
-    self.setData({
-      arr: arr.sort(self.compare(property, sortRule))
+  change: function() {
+    let that = this;
+    that.setData({
+      showView: (!that.data.showView)
     })
-    console.log(arr)
   },
-  compare: function(property, bol) {
-    console.log(property, bol)
-    return function(a, b) {
-      var value1 = a[property];
-      var value2 = b[property];
-      if (bol) {
-        return value1 - value2;
-        console.log(value1 - value2)
-      } else {
-        return value2 - value1;
-        console.log(value2 - value1)
-      }
-    }
+  close: function() {
+    let that = this;
+    that.setData({
+      showView: (!that.data.showView)
+    })
   },
-
   /**
    * 生命周期函数--监听页面加载
    */

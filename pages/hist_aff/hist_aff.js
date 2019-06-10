@@ -28,6 +28,7 @@ Page({
     mos_list: "",
     reser: "倒叙查看",
     paixu: "../../images/daoxu.png",
+    showView: true,
     revers: false
   },
   //倒叙
@@ -110,14 +111,26 @@ Page({
             time: time
           })
         } else {
-          console.log("233")
+          that.setData({
+            showView: (!that.data.showView)
+          })
         };
       } else {
-        console.log("fuck,you")
+        that.setData({
+          showView: (!that.data.showView)
+        })
       };
     } else {
-      console.log("no");
+      that.setData({
+        showView: (!that.data.showView)
+      })
     };
+  },
+  close: function() {
+    let that = this;
+    that.setData({
+      showView: (!that.data.showView)
+    })
   },
   /**
    * 生命周期函数--监听页面加载

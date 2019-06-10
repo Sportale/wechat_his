@@ -9,7 +9,7 @@
       <text style="line-height: 70rpx;">{{time}}</text>
       <view class='rese' bindtap='rese'>
         <text style="padding-left: 10rpx;">{{reser}}</text>
-        <cover-image class='paixu' src='{{paixu}}'></cover-image>
+        <image class='paixu' src='{{paixu}}'></image>
       </view>
     </view>
   </view>

@@ -1,7 +1,10 @@
-<view>
-  <button bindtap="mySort" data-property="age">根据age倒叙</button>
-  <button bindtap="mySort" data-property="id">根据id倒叙</button>
-  <view wx:for="{{arr}}" wx:key="id" wx:for-item="item" data-id="{{item.id}}">
-    <view>{{item.name}}</view>
+<view class="wrap">
+      <view bindtap="change">召唤</view>
+  <view class="hide{{showView?'':'show'}}">
+    <view class="shade">
+      <view class="conts">
+        <text class="closeImg" bindtap="close"></text>
+      </view>
+    </view>
   </view>
 </view>

@@ -41,6 +41,7 @@
 
 .paixu {
   width: 30rpx;
+  height: 60rpx;
   float: right;
   margin-right: 10rpx;
 }
