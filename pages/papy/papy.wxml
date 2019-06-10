@@ -4,13 +4,9 @@
     <view class="userinfo">
       <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
       <block>
-        <!-- <open-data  class="userinfo-avatar" type="userAvatarUrl"></open-data>
-        <open-data type="userNickName"></open-data> -->
-        <!-- <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image> -->
         <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       </block>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      <!-- <view>关于介绍</view> -->
     </view>
   </view>
   <view class='topTabSwiper'>
@@ -20,10 +16,18 @@
   </view>
   <swiper current="{{currentData}}" class='swiper' duration="300" bindchange="bindchange">
     <swiper-item>
-      <view class='swiper_con'>树涧是由本人学习开发的一款小程序</view>
+      <view class='swiper_con'>
+        <view>树涧是由本人学习开发的一款小程序，可以搜索时间的历史事件</view>
+        <view>希望能给大家带来帮助，阿里嘎多</view>
+        <view>后续可能会开放功能哦FAQ</view>
+        <view>谢谢你们的支持！</view>
+      </view>
     </swiper-item>
     <swiper-item>
-      <view class='swiper_con'>邮箱：sportale@outlook.com</view>
+      <view class='swiper_con'>
+        <view>QQ：1149959722</view>
+        <view>邮箱：sportale@outlook.com</view>
+      </view>
     </swiper-item>
     <!-- <swiper-item><view class='swiper_con'>welcome come to 关注</view></swiper-item>  -->
   </swiper>

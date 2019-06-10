@@ -10,10 +10,10 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#4455ee",
+    "navigationBarBackgroundColor": "#1FBFF1",
     "navigationBarTitleText": "历史大事件",
     "navigationBarTextStyle": "white",
-    "backgroundColor": "#4455ee",
+    "backgroundColor": "#1FBFF1",
     "enablePullDownRefresh": true,
     "onReachBottomDistance": 50
   },

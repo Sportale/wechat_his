@@ -1,13 +1,11 @@
 /* pages/papy/papy.wxss */
 
-.userinfo {
-}
 
 .header {
   width: 100%;
   height: 300rpx;
   padding-top: 50rpx;
-  background-color: #45e;
+  background-color: #1fbff1;
   text-align: center;
 }
 
@@ -19,7 +17,7 @@
 }
 
 .userinfo-nickname {
-  color: #d45444;
+  color: #fff;
   font-size: 30rpx;
   margin: 0 0 20rpx 0;
   display: block;
@@ -49,17 +47,19 @@
 }
 
 .tabBorer {
-  border-bottom: 1px solid #f00;
-  color: #f00;
+  border-bottom: 1px solid rgb(49, 145, 224);
+  color: rgb(49, 145, 224);
 }
 
 .swiper {
   width: 100%;
+  height: 666rpx
 }
 
 .swiper_con {
-  text-align: center;
-  width: 100%;
   height: 100%;
-  padding: 80rpx 0;
+  padding: 60rpx 60rpx;
+}
+.swiper_con view {
+  padding-top: 20rpx ;
 }

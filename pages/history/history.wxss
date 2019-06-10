@@ -8,13 +8,22 @@
   height: 300rpx;
   text-align: center;
   line-height: 150rpx;
-  background-color: #45e;
+  background-color: #1fbff1;
   font-size: 60rpx;
   padding-bottom: 30rpx;
 }
 
 .cte {
   color: white;
+}
+
+.cte-img {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.cte-ft {
+  padding-left: 20rpx;
 }
 
 .body {
@@ -27,7 +36,7 @@
   padding: 20rpx;
   line-height: 60rpx;
   /* background-color: #03ccbb; */
-  border-bottom: 2rpx solid #000;
+  border-bottom: 2rpx solid #ccc;
 }
 
 .rese {
@@ -36,7 +45,7 @@
   display: inline-block;
   float: right;
   background-color: aliceblue;
-  border: 2rpx solid #000;
+  border: 2rpx solid #ccc;
 }
 
 .paixu {
@@ -56,13 +65,13 @@
 
 #text-time {
   padding-left: 10rpx;
-  background-color: goldenrod;
+  background-color: #33e;
 }
 
 #text-aff {
   height: 120rpx;
   padding-left: 10rpx;
-  background-color: antiquewhite;
+  background-color: #88e;
 }
 
 #aff-l {

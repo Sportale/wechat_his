@@ -88,7 +88,6 @@ Page({
     let setsday = that.data.setday;
     let setsmou = that.data.setmou;
     if ((/(^(?:(?:1[6-9]|[2-9][0-9])[0-9]{2}([-/.]?)(?:(?:0?[1-9]|1[0-2])\1(?:0?[1-9]|1[0-9]|2[0-8])|(?:0?[13-9]|1[0-2])\1(?:29|30)|(?:0?[13578]|1[02])\1(?:31))|(?:(?:1[6-9]|[2-9][0-9])(?:0[48]|[2468][048]|[13579][26])|(?:16|[2468][048]|[3579][26])00)([-/.]?)0?2\2(?:29))$)/.test(settime))) {
-      console.log(setsday, setsmou)
       if (setsday == true) {
         if (setsmou == true) {
           wx.request({
@@ -100,8 +99,6 @@ Page({
             method: "get",
             success: function(res) {
               that.setData({
-                setmou: false,
-                setday: false,
                 time: time,
                 mos_list: res.data.result
               })

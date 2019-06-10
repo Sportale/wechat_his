@@ -6,7 +6,7 @@
 
 .head {
   height: 160rpx;
-  background-color: #45e;
+  background-color: #1fbff1;
   padding-bottom: 30rpx;
   padding-top: 30rpx;
 }
@@ -25,6 +25,7 @@
   float: left;
   display: inline-block;
   margin-left: 10rpx;
+  overflow: hidden;
 }
 
 .sousuo text {
@@ -44,7 +45,6 @@
 
 .cliBtn {
   height: 84rpx;
-  width: 150rpx;
   line-height: 80rpx;
   display: inline-block;
   float: right;
@@ -88,13 +88,13 @@
 
 #text-time {
   padding-left: 10rpx;
-  background-color: goldenrod;
+  background-color: #33e;
 }
 
 #text-aff {
   height: 120rpx;
   padding-left: 10rpx;
-  background-color: antiquewhite;
+  background-color: #88e;
 }
 
 #aff-l {
@@ -132,7 +132,6 @@
   background: #fff;
   left: 20%;
   padding-bottom: 80rpx;
-  
   text-align: center;
 }
 

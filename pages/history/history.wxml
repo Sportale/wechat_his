@@ -1,7 +1,10 @@
 <!--pages/history/history.wxml-->
 <view class="htm">
   <view class='head'>
-    <view class='cte'>历史大事件</view>
+    <view class='cte'>
+      <image class='cte-img' src='/images/star.png'></image>
+      <text class='cte-ft'>历史大事件</text>
+    </view>
     <navigator url="/pages/hist_aff/hist_aff?title=hist_aff" hover-class="navigator-hover">{{add}}</navigator>
   </view>
   <view class='body'>
