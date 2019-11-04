@@ -104,9 +104,6 @@ Page({
               })
             }
           })
-          that.setData({
-            time: time
-          })
         } else {
           that.setData({
             showView: (!that.data.showView)
@@ -149,9 +146,6 @@ Page({
           mos_list: res.data.result
         })
       }
-    })
-    that.setData({
-      time: time
     })
   },
 
